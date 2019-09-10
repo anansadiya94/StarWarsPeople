@@ -8,12 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		9E46AFF12324F1D800353439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E46AFF02324F1D800353439 /* AppDelegate.swift */; };
-		9E46AFF32324F1D800353439 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E46AFF22324F1D800353439 /* ViewController.swift */; };
+		9E46AFF32324F1D800353439 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E46AFF22324F1D800353439 /* PeopleViewController.swift */; };
 		9E46AFF62324F1D800353439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E46AFF42324F1D800353439 /* Main.storyboard */; };
 		9E46AFF82324F1D900353439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E46AFF72324F1D900353439 /* Assets.xcassets */; };
 		9E46AFFB2324F1D900353439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E46AFF92324F1D900353439 /* LaunchScreen.storyboard */; };
 		9E46B0062324F1D900353439 /* StarWarsPeopleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E46B0052324F1D900353439 /* StarWarsPeopleTests.swift */; };
 		9E46B0112324F1D900353439 /* StarWarsPeopleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E46B0102324F1D900353439 /* StarWarsPeopleUITests.swift */; };
+		9E49642C23263008003AF016 /* SpinnerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E49642B23263008003AF016 /* SpinnerCell.xib */; };
+		9E49642E2326304C003AF016 /* SpinnerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E49642D2326304C003AF016 /* SpinnerTableViewCell.swift */; };
+		9E4C8F60232633A600B39E60 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4C8F5F232633A600B39E60 /* NetworkService.swift */; };
+		9E4C8F6223263AEE00B39E60 /* RequestServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4C8F6123263AEE00B39E60 /* RequestServiceError.swift */; };
+		9E54E8282326A3AC00DF39F7 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E54E8272326A3AC00DF39F7 /* PersonViewController.swift */; };
+		9E7DF8A72324F52600851C0B /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7DF8A62324F52600851C0B /* Person.swift */; };
+		9E7DF8A92324F6CB00851C0B /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7DF8A82324F6CB00851C0B /* Page.swift */; };
+		9E7DF8AB232508ED00851C0B /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7DF8AA232508ED00851C0B /* PersonTableViewCell.swift */; };
+		9E7DF8AE2325095100851C0B /* RequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7DF8AD2325095100851C0B /* RequestService.swift */; };
+		9EC654F42326F37D001C7456 /* RequestServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC654F32326F37D001C7456 /* RequestServiceProtocol.swift */; };
+		9EC654F62326F395001C7456 /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC654F52326F395001C7456 /* NetworkServiceProtocol.swift */; };
+		9EC654F82326F3BD001C7456 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC654F72326F3BD001C7456 /* JSONParser.swift */; };
+		9EC654FB2326F856001C7456 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC654FA2326F856001C7456 /* Constants.swift */; };
+		9ED4FD3A23279F3200F6E9B3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC654FA2326F856001C7456 /* Constants.swift */; };
+		9ED4FD3B23279F3200F6E9B3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC654FA2326F856001C7456 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +51,7 @@
 /* Begin PBXFileReference section */
 		9E46AFED2324F1D800353439 /* StarWarsPeople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarsPeople.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E46AFF02324F1D800353439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9E46AFF22324F1D800353439 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E46AFF22324F1D800353439 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
 		9E46AFF52324F1D800353439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E46AFF72324F1D900353439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E46AFFA2324F1D900353439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +62,19 @@
 		9E46B00C2324F1D900353439 /* StarWarsPeopleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsPeopleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E46B0102324F1D900353439 /* StarWarsPeopleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsPeopleUITests.swift; sourceTree = "<group>"; };
 		9E46B0122324F1D900353439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E49642B23263008003AF016 /* SpinnerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpinnerCell.xib; sourceTree = "<group>"; };
+		9E49642D2326304C003AF016 /* SpinnerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerTableViewCell.swift; sourceTree = "<group>"; };
+		9E4C8F5F232633A600B39E60 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		9E4C8F6123263AEE00B39E60 /* RequestServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestServiceError.swift; sourceTree = "<group>"; };
+		9E54E8272326A3AC00DF39F7 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		9E7DF8A62324F52600851C0B /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		9E7DF8A82324F6CB00851C0B /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		9E7DF8AA232508ED00851C0B /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		9E7DF8AD2325095100851C0B /* RequestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestService.swift; sourceTree = "<group>"; };
+		9EC654F32326F37D001C7456 /* RequestServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestServiceProtocol.swift; sourceTree = "<group>"; };
+		9EC654F52326F395001C7456 /* NetworkServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceProtocol.swift; sourceTree = "<group>"; };
+		9EC654F72326F3BD001C7456 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		9EC654FA2326F856001C7456 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +126,14 @@
 			isa = PBXGroup;
 			children = (
 				9E46AFF02324F1D800353439 /* AppDelegate.swift */,
-				9E46AFF22324F1D800353439 /* ViewController.swift */,
-				9E46AFF42324F1D800353439 /* Main.storyboard */,
+				9EC654F92326F84C001C7456 /* Helpers */,
+				9E7DF8AC2325093200851C0B /* Services */,
+				9E7DF8A52324F48F00851C0B /* ViewControllers */,
+				9E7DF8A42324F48800851C0B /* Views */,
+				9E7DF8A32324F48300851C0B /* Model */,
+				9E46AFFC2324F1D900353439 /* Info.plist */,
 				9E46AFF72324F1D900353439 /* Assets.xcassets */,
 				9E46AFF92324F1D900353439 /* LaunchScreen.storyboard */,
-				9E46AFFC2324F1D900353439 /* Info.plist */,
 			);
 			path = StarWarsPeople;
 			sourceTree = "<group>";
@@ -123,6 +154,64 @@
 				9E46B0122324F1D900353439 /* Info.plist */,
 			);
 			path = StarWarsPeopleUITests;
+			sourceTree = "<group>";
+		};
+		9E7DF8A32324F48300851C0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E7DF8A62324F52600851C0B /* Person.swift */,
+				9E7DF8A82324F6CB00851C0B /* Page.swift */,
+				9E4C8F6123263AEE00B39E60 /* RequestServiceError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9E7DF8A42324F48800851C0B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E46AFF42324F1D800353439 /* Main.storyboard */,
+				9E7DF8AA232508ED00851C0B /* PersonTableViewCell.swift */,
+				9E49642B23263008003AF016 /* SpinnerCell.xib */,
+				9E49642D2326304C003AF016 /* SpinnerTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9E7DF8A52324F48F00851C0B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E46AFF22324F1D800353439 /* PeopleViewController.swift */,
+				9E54E8272326A3AC00DF39F7 /* PersonViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9E7DF8AC2325093200851C0B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9EC654F22326F36A001C7456 /* Protocols */,
+				9E7DF8AD2325095100851C0B /* RequestService.swift */,
+				9E4C8F5F232633A600B39E60 /* NetworkService.swift */,
+				9EC654F72326F3BD001C7456 /* JSONParser.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9EC654F22326F36A001C7456 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9EC654F32326F37D001C7456 /* RequestServiceProtocol.swift */,
+				9EC654F52326F395001C7456 /* NetworkServiceProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		9EC654F92326F84C001C7456 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9EC654FA2326F856001C7456 /* Constants.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +321,7 @@
 				9E46AFFB2324F1D900353439 /* LaunchScreen.storyboard in Resources */,
 				9E46AFF82324F1D900353439 /* Assets.xcassets in Resources */,
 				9E46AFF62324F1D800353439 /* Main.storyboard in Resources */,
+				9E49642C23263008003AF016 /* SpinnerCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +346,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E46AFF32324F1D800353439 /* ViewController.swift in Sources */,
+				9E7DF8A72324F52600851C0B /* Person.swift in Sources */,
+				9EC654F42326F37D001C7456 /* RequestServiceProtocol.swift in Sources */,
+				9E7DF8AE2325095100851C0B /* RequestService.swift in Sources */,
+				9E4C8F60232633A600B39E60 /* NetworkService.swift in Sources */,
+				9EC654F82326F3BD001C7456 /* JSONParser.swift in Sources */,
+				9E49642E2326304C003AF016 /* SpinnerTableViewCell.swift in Sources */,
+				9E4C8F6223263AEE00B39E60 /* RequestServiceError.swift in Sources */,
+				9E54E8282326A3AC00DF39F7 /* PersonViewController.swift in Sources */,
+				9E46AFF32324F1D800353439 /* PeopleViewController.swift in Sources */,
+				9EC654F62326F395001C7456 /* NetworkServiceProtocol.swift in Sources */,
+				9E7DF8A92324F6CB00851C0B /* Page.swift in Sources */,
+				9E7DF8AB232508ED00851C0B /* PersonTableViewCell.swift in Sources */,
 				9E46AFF12324F1D800353439 /* AppDelegate.swift in Sources */,
+				9EC654FB2326F856001C7456 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E46B0062324F1D900353439 /* StarWarsPeopleTests.swift in Sources */,
+				9ED4FD3A23279F3200F6E9B3 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +377,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E46B0112324F1D900353439 /* StarWarsPeopleUITests.swift in Sources */,
+				9ED4FD3B23279F3200F6E9B3 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +546,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.StarWarsPeople;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -460,7 +564,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.StarWarsPeople;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
