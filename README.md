@@ -1,5 +1,6 @@
 # Star Wars People
 > Mobile interview exercise
+
 [![Swift compatible](https://img.shields.io/badge/Swift-5.0-orange.svg)]()
 
 ## Are you a Star Wars fan? It is your app.
