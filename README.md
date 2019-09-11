@@ -25,6 +25,8 @@ $ open StarWarsPeople.xcodeproj
 #### Run app
 Xcode will be opened, run the app using your iPhone or your favorite simulator and enjoy it :)
 
+* On searching, to have the currect results, please wait 1 second approximately after typing any key (1 second it usually takes to have the results, depending on the internet speed).
+
 ### About me
 Anan Sadiya – anansadiya@gmail.com
 [https://github.com/anansadiya94](https://github.com/anansadiya94)
