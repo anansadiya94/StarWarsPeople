@@ -110,11 +110,11 @@ extension PeopleViewController: UITableViewDelegate, UITableViewDataSource {
         if let cell: PersonTableViewCell = tableView.dequeueReusableCell(withIdentifier: "personCell") as? PersonTableViewCell {
             if isFiltering {
                 if (!filteredPersons.isEmpty) {
-                    cell.setUp(name: filteredPersons[indexPath.row].name, id: indexPath.row+1)
+                    cell.setUp(name: filteredPersons[indexPath.row].name)
                 }
             } else {
                 if (!persons.isEmpty) {
-                    cell.setUp(name: persons[indexPath.row].name, id: indexPath.row+1)
+                    cell.setUp(name: persons[indexPath.row].name)
                 }
             }
             return cell
